@@ -1,0 +1,3 @@
+/Users/fabiosousa/Documents/lamp/build/CMakeFiles/MiniAcceleratorSimulator.dir
+/Users/fabiosousa/Documents/lamp/build/CMakeFiles/edit_cache.dir
+/Users/fabiosousa/Documents/lamp/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/Accelerator.cpp.o -c /Users/fabiosousa/Documents/lamp/src/Accelerator.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/Accelerator.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/Accelerator.cpp.o"
+},
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/Device.cpp.o -c /Users/fabiosousa/Documents/lamp/src/Device.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/Device.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/Device.cpp.o"
+},
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/Magnet.cpp.o -c /Users/fabiosousa/Documents/lamp/src/Magnet.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/Magnet.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/Magnet.cpp.o"
+},
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/PowerSupply.cpp.o -c /Users/fabiosousa/Documents/lamp/src/PowerSupply.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/PowerSupply.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/PowerSupply.cpp.o"
+},
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/TemperatureSensor.cpp.o -c /Users/fabiosousa/Documents/lamp/src/TemperatureSensor.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/TemperatureSensor.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/TemperatureSensor.cpp.o"
+},
+{
+  "directory": "/Users/fabiosousa/Documents/lamp/build",
+  "command": "/usr/bin/clang++ -I/Users/fabiosousa/Documents/lamp/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/MiniAcceleratorSimulator.dir/src/main.cpp.o -c /Users/fabiosousa/Documents/lamp/src/main.cpp",
+  "file": "/Users/fabiosousa/Documents/lamp/src/main.cpp",
+  "output": "CMakeFiles/MiniAcceleratorSimulator.dir/src/main.cpp.o"
+}
+]
