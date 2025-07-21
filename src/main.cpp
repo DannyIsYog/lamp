@@ -26,7 +26,7 @@ int main() {
         magnet->setFieldStrength(powerSupply->getVoltage() / 600.0);
     }
 
-    for (int cycle = 1; cycle <= 10; ++cycle) {
+    for (int cycle = 1; cycle <= 100; ++cycle) {
         std::cout << "\nSimulation cycle: " << cycle << "\n";
         powerSupply->simulate();
         magnet->simulate(*tempSensor);

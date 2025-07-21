@@ -1,33 +1,31 @@
-# Compiler
+# Compiler and flags
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Iinclude
+CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
 LDFLAGS = 
 
-# Source files
+# Source and object files
 SRCS = $(wildcard src/*.cpp)
-
-# Object files
 OBJS = $(SRCS:.cpp=.o)
 
 # Executable name
 TARGET = MiniAcceleratorSimulator
 
-# Default target
+# Default rule
 all: $(TARGET)
 
-# Link object files
+# Linking the executable
 $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)
 
-# Compile source files into object files
+# Compiling source files to object files
 src/%.o: src/%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Clean build files
+# Cleaning up object files and executable
 clean:
 	rm -f $(TARGET) $(OBJS)
 
-# Rebuild project from scratch
+# Complete rebuild
 rebuild: clean all
 
 .PHONY: all clean rebuild

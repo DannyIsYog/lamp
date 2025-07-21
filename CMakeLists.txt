@@ -1,15 +1,31 @@
-cmake_minimum_required(VERSION 3.10)
-project(MiniAcceleratorSimulator)
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -Iinclude
+LDFLAGS = 
 
-# Set C++ standard to C++17
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# Source and object files
+SRCS = $(wildcard src/*.cpp)
+OBJS = $(SRCS:.cpp=.o)
 
-# Include header files directory
-include_directories(include)
+# Executable name
+TARGET = MiniAcceleratorSimulator
 
-# Gather all source files from src/
-file(GLOB SOURCES "src/*.cpp")
+# Default rule
+all: $(TARGET)
 
-# Create executable
-add_executable(MiniAcceleratorSimulator ${SOURCES})
+# Linking the executable
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)
+
+# Compiling source files to object files
+src/%.o: src/%.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Cleaning up object files and executable
+clean:
+	rm -f $(TARGET) $(OBJS)
+
+# Complete rebuild
+rebuild: clean all
+
+.PHONY: all clean rebuild
